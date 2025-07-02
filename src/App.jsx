@@ -19,6 +19,9 @@ import NumerologyCalculator from "./pages/NumerologyCalculator";
 import DailyHoroscope from "./pages/DailyHoroscope";
 import WeeklyHoroscope from "./pages/WeeklyHoroscope";
 import BookPooja from "./pages/book-pooja";
+import LifePathListing from "./pages/LifePathListing"
+import AngelNumber from "./pages/AngelNumbersPage"
+import Shop from "./pages/AstromallPage"
 
 function App() {
   return (
@@ -35,12 +38,13 @@ function App() {
           <Route path="/horoscopes/DailyHoroscope" element={<DailyHoroscope />} />
             <Route path="/horoscopes/WeeklyHoroscope" element={<WeeklyHoroscope />} />
         
-        <Route path="//book-a-pooja" element={<BookPooja />} />
+        <Route path="/book-a-pooja" element={<BookPooja />} />
         <Route path="/chat-with-astrologer" element={<ChatWithAstrologerPage />} />
-       
-        <Route path="/blogs/love-relationships" element={<LoveRelationshipsPage />} />
-        <Route path="/blogs/career-finance" element={<CareerFinancePage />} />
-        <Route path="/blogs/health-wellness" element={<HealthWellnessPage />} />
+         <Route path="/astromall" element={<Shop />} />
+        <Route path="/blogs/AngelNumber" element={<AngelNumber />} />
+        <Route path="/blogs" element={<LifePathListing />} />
+
+          
 
    
       </Routes>

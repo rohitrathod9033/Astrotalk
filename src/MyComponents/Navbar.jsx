@@ -206,11 +206,11 @@ const Navbar = () => {
             <div className="relative group">
               <button className="flex items-center hover:text-yellow-600 transition">Blogs ▼</button>
               <div className="absolute top-full left-0 mt-2 bg-white border shadow-md rounded-md z-10 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 transform scale-95 group-hover:scale-100">
-                <Link to="/blogs/love-relationships" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                  Love & Relationships
+                <Link to="/blogs/AngelNumber" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                  AngelNumber
                 </Link>
-                <Link to="/blogs/career-finance" className="block px-4 py-2 hover:bg-gray-100 text-sm">
-                  Career & Finance
+                <Link to="/blogs" className="block px-4 py-2 hover:bg-gray-100 text-sm">
+                All Blogs
                 </Link>
               </div>
             </div>
