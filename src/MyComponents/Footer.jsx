@@ -1,6 +1,8 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
+// Footer Start Here 
+
 const Footer = () => {
   return (
     <footer className="bg-gray-300 text-base text-gray-800 w-full"> {/* Base font size increased here */}
